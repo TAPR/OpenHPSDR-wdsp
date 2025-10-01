@@ -12,8 +12,10 @@ Copyright © 2016 ‐ 2023, Warren C. Pratt, NR0V
 
 1.27 2025-11-01
 
-Various code changes to make the CLANG LLVM Static Analyzer checker tool (used for Linux implementations) happier. Addition of psychoacoustic postprocessing
-for NR2 noise reduction. **Minimum phase filter responses were improperly cached--this has been removed.**
+- **Minimum phase filter responses were improperly cached--this has been removed.**
+
++ Various code changes to make the CLANG LLVM Static Analyzer checker tool (used for Linux implementations) happier. Addition of psychoacoustic postprocessing
+for NR2 noise reduction.
 
 1.26 2025-06-30
 
