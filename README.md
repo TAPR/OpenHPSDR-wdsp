@@ -50,6 +50,7 @@ voice squelch functionality as an alternative especially for SSB reception.
 Internal enhancements supporting portability to non-Windows operating systems. Enhanced panadapter/waterfall frequency accuracy for high-zoom
 cases.
 
-### Porting considerations
+### Porting considerations for v1.20
 (1) There are two new files that must be included in the build - calculus.c and calculus.h
+
 (2) For the display, setup for calls to SetAnalyzer(...) is somewhat different for optimum results and parameters fscLin and fscHin should be passed as doubles--see the WDSP Guide.
