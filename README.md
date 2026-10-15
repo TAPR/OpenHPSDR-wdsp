@@ -6,9 +6,19 @@ For change logs see the WDSP Guide documentation provided with each release.
 
 GNU General Public License (GPL) applies to this software (see license file).
 
-Copyright © 2016 ‐ 2023, Warren C. Pratt, NR0V
+Copyright © 2016 ‐ 2026, Warren C. Pratt, NR0V
 
 ## Release Notes
+
+2.11 2026-10-15
+
+* CW Models (Standard & Premium) for NNR Noise Reduction added.
+* Enhancement of SetChannelState(...) function.  Hosts should call SetChannelState(ch, 0, 1) before CloseChannel(ch).
+* Porting aids:  New #includes in several files; wdsp_align.h added; enums now in wdsp.h.
+* Bug fixes in fmd.c, emph.c, emnr.c, and nnet.c.
+* Bounds checking added for data files and buffer sizes; WDSPwisdom() can now return -1 (see Manual).
+* Several other minor improvements and additions.
+* "WDSP Reference Manual" - NNR section expanded to include discussion of new CW models.
 
 2.10 2026-09-04
 
